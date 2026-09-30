@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-30T17:15:00Z",
+  "maintainer": "Nigenda Studios & CesarNV1",
+  "description": "Repositorio oficial de fuentes, servidores y fórmulas comunitarias para Nigenda Shiori.",
+  "formulas": [
+    {
+      "serverName": "jkanime",
+      "domain": "jkanime.net",
+      "seasonPattern": "https://jkanime.net/{slug}/",
+      "episodePattern": "https://jkanime.net/{slug}/{episode}/",
+      "mediaType": "ANIME",
+      "sampleSuccessSlug": "sousou-no-frieren"
+    },
+    {
+      "serverName": "tioanime",
+      "domain": "tioanime.com",
+      "seasonPattern": "https://tioanime.com/anime/{slug}",
+      "episodePattern": "https://tioanime.com/ver/{slug}-{episode}",
+      "mediaType": "ANIME",
+      "sampleSuccessSlug": "sousou-no-frieren"
+    },
+    {
+      "serverName": "animeonlineninja",
+      "domain": "ww3.animeonline.ninja",
+      "seasonPattern": "https://ww3.animeonline.ninja/online/{slug}/",
+      "episodePattern": "https://ww3.animeonline.ninja/episodio/{slug}-episodio-{episode}/",
+      "mediaType": "ANIME",
+      "sampleSuccessSlug": "sousou-no-frieren"
+    },
+    {
+      "serverName": "manhwaweb",
+      "domain": "manhwaweb.com",
+      "seasonPattern": "https://manhwaweb.com/manga/{slug}",
+      "episodePattern": "https://manhwaweb.com/manga/{slug}/capitulo-{episode}",
+      "mediaType": "MANHWA",
+      "sampleSuccessSlug": "solo-leveling"
+    },
+    {
+      "serverName": "manhwasnet",
+      "domain": "manhwas.net",
+      "seasonPattern": "https://manhwas.net/manga/{slug}",
+      "episodePattern": "https://manhwas.net/leer/{slug}-capitulo-{episode}",
+      "mediaType": "MANHWA",
+      "sampleSuccessSlug": "solo-leveling"
+    },
+    {
+      "serverName": "leermanga",
+      "domain": "leermanga.net",
+      "seasonPattern": "https://leermanga.net/manga/{slug}",
+      "episodePattern": "https://leermanga.net/manga/{slug}/{episode}",
+      "mediaType": "MANGA",
+      "sampleSuccessSlug": "one-piece"
+    },
+    {
+      "serverName": "mangadex",
+      "domain": "mangadex.org",
+      "seasonPattern": "https://mangadex.org/title/{slug}",
+      "episodePattern": "https://mangadex.org/title/{slug}",
+      "mediaType": "MANGA",
+      "sampleSuccessSlug": "a1c7c817-4e59-43b7-9365-09675a149a6f"
+    },
+    {
+      "serverName": "mundodonghua",
+      "domain": "mundodonghua.com",
+      "seasonPattern": "https://www.mundodonghua.com/donghua/{slug}",
+      "episodePattern": "https://www.mundodonghua.com/ver/{slug}/{episode}",
+      "mediaType": "DONGHUA",
+      "sampleSuccessSlug": "throne-of-seal"
+    }
+  ]
+}
