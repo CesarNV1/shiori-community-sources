@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-10-01T05:18:00Z",
+  "version": 3,
+  "updatedAt": "2026-10-01T16:30:00Z",
   "maintainer": "Nigenda Studios & CesarNV1",
   "description": "Repositorio oficial de fuentes, servidores y fórmulas comunitarias para Nigenda Shiori.",
   "formulas": [
@@ -27,6 +27,14 @@
       "episodePattern": "https://ww3.animeonline.ninja/episodio/{slug}-episodio-{episode}/",
       "mediaType": "ANIME",
       "sampleSuccessSlug": "sousou-no-frieren"
+    },
+    {
+      "serverName": "spnmanga",
+      "domain": "spnmanga.com",
+      "seasonPattern": "https://www.spnmanga.com/leer/{slug}/",
+      "episodePattern": "https://www.spnmanga.com/leer/{slug}/{episode}/",
+      "mediaType": "MANGA",
+      "sampleSuccessSlug": "5qnazqwx4b/air-gear"
     },
     {
       "serverName": "manhwaweb",
