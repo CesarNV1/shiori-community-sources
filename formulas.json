@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-30T17:15:00Z",
+  "version": 2,
+  "updatedAt": "2026-10-01T05:18:00Z",
   "maintainer": "Nigenda Studios & CesarNV1",
   "description": "Repositorio oficial de fuentes, servidores y fórmulas comunitarias para Nigenda Shiori.",
   "formulas": [
@@ -31,10 +31,10 @@
     {
       "serverName": "manhwaweb",
       "domain": "manhwaweb.com",
-      "seasonPattern": "https://manhwaweb.com/manga/{slug}",
-      "episodePattern": "https://manhwaweb.com/manga/{slug}/capitulo-{episode}",
+      "seasonPattern": "https://manhwaweb.com/manhwa/{slug}",
+      "episodePattern": "https://manhwaweb.com/leer/{slug}-{episode}_01",
       "mediaType": "MANHWA",
-      "sampleSuccessSlug": "solo-leveling"
+      "sampleSuccessSlug": "el-heroe-de-nivel-legendario-prodigio-de-la-academia_1737526932121"
     },
     {
       "serverName": "manhwasnet",
