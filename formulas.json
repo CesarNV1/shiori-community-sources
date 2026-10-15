@@ -75,6 +75,14 @@
       "episodePattern": "https://www.mundodonghua.com/ver/{slug}/{episode}",
       "mediaType": "DONGHUA",
       "sampleSuccessSlug": "throne-of-seal"
+    },
+    {
+      "serverName": "hentaila",
+      "domain": "hentaila.com",
+      "seasonPattern": "https://hentaila.com/media/{slug}",
+      "episodePattern": "https://hentaila.com/media/{slug}/{episode}",
+      "mediaType": "ANIME",
+      "sampleSuccessSlug": "todo-no-tsumari"
     }
   ]
 }
