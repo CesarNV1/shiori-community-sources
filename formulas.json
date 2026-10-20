@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-10-01T16:30:00Z",
+  "version": 4,
+  "updatedAt": "2026-10-19T20:20:00Z",
   "maintainer": "Nigenda Studios & CesarNV1",
   "description": "Repositorio oficial de fuentes, servidores y fórmulas comunitarias para Nigenda Shiori.",
   "formulas": [
@@ -43,6 +43,14 @@
       "episodePattern": "https://manhwaweb.com/leer/{slug}-{episode}_01",
       "mediaType": "MANHWA",
       "sampleSuccessSlug": "el-heroe-de-nivel-legendario-prodigio-de-la-academia_1737526932121"
+    },
+    {
+      "serverName": "lectorxd",
+      "domain": "lectorxd.com",
+      "seasonPattern": "https://lectorxd.com/{slug}",
+      "episodePattern": "https://lectorxd.com/{slug}/leer/{episode}",
+      "mediaType": "MANHWA",
+      "sampleSuccessSlug": "manhwa/overgeared"
     },
     {
       "serverName": "manhwasnet",
