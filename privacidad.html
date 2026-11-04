@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad y Términos de Servicio — Nigenda Shiori</title>
+    <meta name="description" content="Política de Privacidad oficial, Auditoría de Datos, Derecho al Olvido y Términos de Servicio de la aplicación móvil Nigenda Shiori (com.nigendastudios.shiori) por Nigenda Studios.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-page: #F8FAFC;
+            --bg-card: #FFFFFF;
+            --bg-subtle: #F1F5F9;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #64748B;
+            --accent-primary: #0284C7;
+            --accent-dark: #0369A1;
+            --accent-badge: #E0F2FE;
+            --border-color: #E2E8F0;
+            --gold-accent: #D97706;
+            --danger-bg: #FEF2F2;
+            --danger-border: #FECACA;
+            --danger-text: #991B1B;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Top Header Bar */
+        header.top-bar {
+            background: linear-gradient(135deg, #050814 0%, #0F172A 100%);
+            color: #FFFFFF;
+            padding: 48px 24px 40px;
+            border-bottom: 3px solid #38BDF8;
+        }
+
+        .header-container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .brand-row {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+
+        .brand-badge {
+            background: rgba(56, 189, 248, 0.15);
+            border: 1px solid rgba(56, 189, 248, 0.4);
+            color: #38BDF8;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            border-radius: 999px;
+        }
+
+        header.top-bar h1 {
+            font-size: 30px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            line-height: 1.25;
+            margin-bottom: 12px;
+            color: #F8FAFC;
+        }
+
+        header.top-bar p.subtitle {
+            color: #94A3B8;
+            font-size: 15px;
+            max-width: 720px;
+        }
+
+        .meta-strip {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 24px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 13px;
+            color: #CBD5E1;
+        }
+
+        .meta-strip span strong {
+            color: #38BDF8;
+        }
+
+        /* Main Layout */
+        main.container {
+            max-width: 860px;
+            margin: 36px auto 64px;
+            padding: 0 20px;
+        }
+
+        /* Navigation Pills */
+        nav.doc-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 32px;
+            background: var(--bg-card);
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+        }
+
+        nav.doc-nav a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 8px;
+            background: var(--bg-subtle);
+            transition: all 0.15s ease;
+        }
+
+        nav.doc-nav a:hover {
+            background: var(--accent-badge);
+            color: var(--accent-dark);
+        }
+
+        /* Summary Banner */
+        .summary-banner {
+            background: #EFF6FF;
+            border-left: 4px solid var(--accent-primary);
+            padding: 20px 24px;
+            border-radius: 0 12px 12px 0;
+            margin-bottom: 32px;
+        }
+
+        .summary-banner h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0369A1;
+            margin-bottom: 6px;
+        }
+
+        .summary-banner p {
+            font-size: 14.5px;
+            color: #1E3A8A;
+        }
+
+        /* Legal Cards */
+        section.legal-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
+        }
+
+        section.legal-card h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        section.legal-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 22px 0 10px;
+        }
+
+        section.legal-card p {
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+            font-size: 15.5px;
+        }
+
+        section.legal-card ul {
+            margin: 10px 0 18px 22px;
+            color: var(--text-secondary);
+        }
+
+        section.legal-card li {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        section.legal-card li strong {
+            color: var(--text-primary);
+        }
+
+        .section-divider {
+            margin: 48px 0 28px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--text-primary);
+        }
+
+        .section-divider h2 {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        .section-divider p {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .highlight-box {
+            background: var(--bg-subtle);
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-top: 16px;
+            font-size: 14.5px;
+            color: var(--text-secondary);
+        }
+
+        .deletion-box {
+            background: var(--danger-bg);
+            border: 1px solid var(--danger-border);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 16px;
+        }
+
+        .deletion-box h4 {
+            color: var(--danger-text);
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .deletion-box p {
+            color: var(--danger-text);
+            font-size: 14.5px;
+            margin-bottom: 0;
+        }
+
+        footer {
+            max-width: 860px;
+            margin: 0 auto 48px;
+            padding: 24px 20px 0;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13.5px;
+        }
+
+        @media (max-width: 640px) {
+            header.top-bar {
+                padding: 32px 18px 28px;
+            }
+            header.top-bar h1 {
+                font-size: 24px;
+            }
+            section.legal-card {
+                padding: 22px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="top-bar">
+    <div class="header-container">
+        <div class="brand-row">
+            <span class="brand-badge">Documento Legal Oficial</span>
+            <span class="brand-badge">GDPR • CCPA • Google Play</span>
+        </div>
+        <h1>Política de Privacidad y Términos de Servicio</h1>
+        <p class="subtitle">
+            Transparencia, soberanía de datos y condiciones de uso de la aplicación móvil <strong>Nigenda Shiori</strong>, desarrollada por <strong>Nigenda Studios</strong>.
+        </p>
+        <div class="meta-strip">
+            <span><strong>Aplicación:</strong> Nigenda Shiori (v2.9.1)</span>
+            <span><strong>Paquete Oficial:</strong> com.nigendastudios.shiori</span>
+            <span><strong>Entidad Responsable:</strong> Nigenda Studios</span>
+            <span><strong>Última actualización:</strong> Noviembre 2026</span>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <nav class="doc-nav" aria-label="Navegación del documento">
+        <a href="#filosofia">1. Filosofía Local-First</a>
+        <a href="#auditoria-datos">2. Auditoría de Datos</a>
+        <a href="#cero-ia">3. Cero IA y Sin Perfilado</a>
+        <a href="#terceros">4. Servicios de Terceros y Anuncios</a>
+        <a href="#eliminar-cuenta">5. Derecho al Olvido y Eliminación</a>
+        <a href="#terminos">6. Términos de Servicio</a>
+        <a href="#contacto">7. Contacto</a>
+    </nav>
+
+    <div class="summary-banner">
+        <h2>Sello de Transparencia y Protección de Datos</h2>
+        <p>
+            <strong>Nigenda Shiori</strong> opera bajo el principio de soberanía de datos del usuario: toda tu biblioteca funciona bajo arquitectura <strong>Local-First</strong> (primero en tu dispositivo), tus credenciales privadas se cifran por hardware mediante <strong>Android KeyStore</strong> y dispones de control total para exportar o destruir permanentemente tus datos y tu cuenta en cualquier momento.
+        </p>
+    </div>
+
+    <!-- SECCIÓN 1 -->
+    <section id="filosofia" class="legal-card">
+        <h2>1. Compromiso y Filosofía Local-First</h2>
+        <p>
+            En <strong>Nigenda Studios</strong> respetamos profundamente tu privacidad y autonomía digital. <strong>Nigenda Shiori</strong> fue construida bajo una arquitectura <em>Local-First</em> (local primero): toda la información de tus animes, mangas, manhwas, donghuas, manhuas, progreso de lectura, enlaces personalizados y contraseñas reside primariamente en el almacenamiento seguro de tu propio dispositivo.
+        </p>
+        <p>
+            No comercializamos ni vendemos tus hábitos de lectura, búsquedas ni historial a terceros. Tu biblioteca personal te pertenece a ti y solo a ti.
+        </p>
+    </section>
+
+    <!-- SECCIÓN 2 -->
+    <section id="auditoria-datos" class="legal-card">
+        <h2>2. Declaración y Auditoría Exhaustiva de Datos</h2>
+        <p>
+            A continuación se desglosan todos los datos personales y de uso que la aplicación gestiona, su ubicación técnica y su propósito específico:
+        </p>
+
+        <h3>A. Base de Datos Local SQLite (Room Database en el Dispositivo)</h3>
+        <ul>
+            <li><strong>Obras Registradas (<code>media_items</code>):</strong> Almacena títulos oficiales, títulos en Romaji, tipo de obra (Anime, Manga, Manhwa, Donghua, Manhua), estado de seguimiento (Viendo, Leyendo, Al Día, Completado, En Pausa, Descartado), cantidad total de episodios/capítulos, portada oficial en caché local, calificación personal de 1 a 5 estrellas, notas privadas y etiquetas de Favorito y Bóveda Privada (+18).</li>
+            <li><strong>Registro de Capítulos y Episodios (<code>episode_items</code>):</strong> Números ordinales de capítulos, estado de completitud (visto/leído), marca temporal de visualización (<code>watchedAt</code>) y URLs asignadas por el usuario.</li>
+            <li><strong>Marcadores y Enlaces de Servidores (<code>custom_links</code>):</strong> URLs directas que el usuario introduce o gestiona para organizar sus obras en la web.</li>
+            <li><strong>Patrones Aprendidos (<code>server_formulas</code>):</strong> Estructuras sintácticas de marcadores web para organizar futuros capítulos.</li>
+        </ul>
+
+        <h3>B. Credenciales y Cifrado de Hardware (Android KeyStore)</h3>
+        <ul>
+            <li><strong>Bóveda Oculta +18 (<code>shiori_vault_prefs</code>):</strong> Tu PIN o contraseña nunca se almacena en texto plano. Se almacena únicamente un hash criptográfico unidireccional <strong>SHA-256</strong> reforzado con Salt local. Opcionalmente, se enlaza al chip biométrico del dispositivo (<code>BiometricPrompt</code>) para desbloqueo local por huella o rostro.</li>
+            <li><strong>Cifrado de Preferencias Seguras:</strong> Los datos sensibles se resguardan en <code>nigenda_shiori_secure_prefs</code> utilizando <code>EncryptedSharedPreferences</code> con claves maestras de hardware generadas por el <strong>Android KeyStore</strong> (<code>AES-256-GCM</code> y <code>AES-256-SIV</code>).</li>
+            <li><strong>Métodos de Rescate:</strong> Correo de recuperación y hash de pregunta secreta para restaurar el acceso a la bóveda en caso de olvido.</li>
+        </ul>
+
+        <h3>C. Cuenta Opcional y Respaldo en la Nube</h3>
+        <ul>
+            <li><strong>Sincronización en la Nube (Cuenta Shiori — Supabase Auth &amp; PostgreSQL):</strong> De manera 100% opcional, el usuario puede registrarse o iniciar sesión con su correo electrónico y contraseña para respaldar y sincronizar su biblioteca entre dispositivos. La transmisión se realiza íntegramente mediante conexiones cifradas TLS 1.3/HTTPS.</li>
+            <li><strong>Respaldo del Sistema (Android Auto-Backup / Google Drive AppData):</strong> Servicio estándar del sistema operativo Android para resguardar copias cifradas en el almacenamiento privado de la cuenta de Google del dispositivo. Nigenda Studios no tiene acceso a las credenciales de tu cuenta de Google.</li>
+        </ul>
+    </section>
+
+    <!-- SECCIÓN 3 -->
+    <section id="cero-ia" class="legal-card">
+        <h2>3. Declaración de No Uso de IA Generativa en la App ni Perfilado de Biblioteca</h2>
+        <p>
+            <strong>Nigenda Shiori</strong> opera como un catálogo y organizador bibliográfico personal 100% determinista:
+        </p>
+        <ul>
+            <li><strong>Sin IA Generativa Integrada:</strong> La aplicación no incorpora modelos de lenguaje generativo (LLMs), bots conversacionales ni generación artificial de texto o imágenes.</li>
+            <li><strong>Cero Perfilado de tus Listas de Lectura:</strong> Tus listas privadas, estados de lectura, marcadores y calificaciones personales no se venden a corredores de datos (<em>data brokers</em>).</li>
+            <li><strong>Transparencia en el Catálogo:</strong> Todas las obras, sinopsis, géneros y fechas de lanzamiento se obtienen directamente de bases de datos bibliográficas públicas y abiertas mantenidas por la comunidad (AniList, MangaDex, Shikimori y MangaUpdates), mostrándose tal y como fueron registradas oficialmente.</li>
+        </ul>
+    </section>
+
+    <!-- SECCIÓN 4 -->
+    <section id="terceros" class="legal-card">
+        <h2>4. Listado de Servicios de Terceros, APIs y Publicidad</h2>
+        <p>
+            La aplicación se conecta exclusivamente a los siguientes servicios externos con fines operativos específicos y bajo cifrado HTTPS:
+        </p>
+        <ul>
+            <li><strong>1. AniList API (GraphQL — anilist.co):</strong> Proveedor primario de información bibliográfica pública (títulos, sinopsis, géneros, autores, calificaciones y carátulas oficiales).</li>
+            <li><strong>2. MangaDex API (REST v5 — mangadex.org) y Shikimori API (shikimori.one):</strong> Consulta pública de catálogo de mangas, manhwas y metadatos de episodios emitidos.</li>
+            <li><strong>3. MangaUpdates API (api.mangaupdates.com):</strong> Consulta pública del conteo de capítulos publicados oficialmente.</li>
+            <li><strong>4. Supabase Cloud (supabase.co):</strong> Infraestructura de autenticación y base de datos en la nube con seguridad a nivel de fila (Row-Level Security) utilizada únicamente cuando el usuario decide crear una <em>Cuenta Shiori</em> para respaldar su biblioteca.</li>
+            <li><strong>5. Google AdMob / Google Mobile Ads SDK (google.com/admob):</strong> Para mantener la aplicación 100% gratuita para todos los usuarios, Nigenda Shiori muestra anuncios publicitarios provistos por Google AdMob (banners, intersticiales y anuncios recompensados opcionales para obtener horas de Pase Libre sin publicidad). El SDK de Google Mobile Ads puede recopilar y utilizar el Identificador de Publicidad de Android (AAID), datos de diagnóstico básicos de rendimiento y señales del dispositivo para la entrega de anuncios y prevención de fraude conforme a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>.</li>
+            <li><strong>6. Coil Image Cache:</strong> Motor local para almacenar temporalmente en caché las carátulas dentro del teléfono.</li>
+        </ul>
+        <div class="highlight-box">
+            <strong>Seguridad de Pagos:</strong> Nigenda Shiori es una aplicación gratuita y no procesa ni almacena datos de tarjetas de crédito, cuentas bancarias ni instrumentos financieros del usuario.
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5 -->
+    <section id="eliminar-cuenta" class="legal-card">
+        <h2>5. Tus Derechos, Eliminación de Cuenta y Derecho al Olvido (Art. 17 GDPR)</h2>
+        <p>
+            En cumplimiento estricto de las normativas internacionales de protección de datos (GDPR Art. 17, CCPA y políticas de eliminación de cuentas de Google Play), tienes derecho absoluto y permanente a:
+        </p>
+        <ul>
+            <li><strong>Acceso y Portabilidad Total:</strong> Exportar en cualquier momento la totalidad de tus obras, enlaces y capítulos en un archivo estándar JSON legible mediante el botón <em>«Exportar Respaldo JSON»</em> en la pestaña de Ajustes.</li>
+            <li><strong>Eliminación Directa de Cuenta y Datos desde la Aplicación (Derecho al Olvido):</strong> Puedes ejecutar directamente desde la aplicación, sin necesidad de enviar correos ni esperar aprobaciones manuales, la destrucción total, irreversible y permanente de tu cuenta en la nube (Cuenta Shiori), tu biblioteca sincronizada, tu base de datos local SQLite, tu PIN de Bóveda, claves criptográficas del Android KeyStore y caché local.</li>
+        </ul>
+
+        <div class="deletion-box">
+            <h4>¿Cómo eliminar permanentemente tu cuenta y todos tus datos?</h4>
+            <p>
+                1. Abre la aplicación <strong>Nigenda Shiori</strong> y entra a la pestaña <strong>Ajustes (⚙️)</strong>.<br>
+                2. Desplázate hasta la sección inferior <strong>Privacidad y Derecho al Olvido</strong> y pulsa el botón <strong>«Eliminar Cuenta y Datos (Derecho al Olvido)»</strong>.<br>
+                3. Al confirmar, la aplicación elimina de forma inmediata tus registros en la nube (Supabase), purga la base de datos local con instrucción <code>VACUUM</code> y destruye las llaves criptográficas locales.<br>
+                4. Alternativamente, si ya desinstalaste la aplicación y deseas solicitar la eliminación remota de tu Cuenta Shiori desde la web, envía un correo a <strong>soporte@nigendastudios.com</strong> con el asunto <em>«Eliminación de Cuenta Shiori»</em> indicando el correo registrado y tus datos serán eliminados definitivamente en un plazo máximo de 48 horas.
+            </p>
+        </div>
+    </section>
+
+    <!-- DIVISOR TÉRMINOS DE SERVICIO -->
+    <div id="terminos" class="section-divider">
+        <h2>Términos y Condiciones de Servicio</h2>
+        <p>Condiciones legales que regulan el uso del organizador bibliográfico Nigenda Shiori.</p>
+    </div>
+
+    <!-- TÉRMINOS 1 AL 6 -->
+    <section class="legal-card">
+        <h2>1. Aceptación de los Términos</h2>
+        <p>
+            Al descargar, instalar, vincular tu cuenta o utilizar <strong>Nigenda Shiori</strong> (en adelante «la Aplicación»), aceptas quedar vinculado por estos Términos de Servicio. Si no estás de acuerdo con alguna de las cláusulas aquí descritas, no debes utilizar la Aplicación.
+        </p>
+
+        <h3>2. Naturaleza del Servicio (Organizador Bibliográfico y Gestor Personal de Marcadores)</h3>
+        <p>
+            <strong>Nigenda Shiori</strong> es un organizador bibliográfico, registrador de progreso de lectura/visualización y gestor personal de marcadores web (<em>bookmarks</em>).
+        </p>
+        <ul>
+            <li>La Aplicación <strong>NO aloja, almacena, transmite ni retransmite</strong> archivos de video, audio ni imágenes de cómics protegidos por derechos de autor en servidores propios.</li>
+            <li>Las URLs, enlaces externos y sitios web agregados o consultados son gestionados de forma personal y voluntaria por cada usuario como marcadores de navegación.</li>
+            <li>Cada usuario es el único responsable del uso que realice de los sitios web externos a los que decida acceder desde su dispositivo.</li>
+        </ul>
+
+        <h3>3. Declaración de Mayoría de Edad (18+) y Uso Responsable</h3>
+        <ul>
+            <li>El uso de la Aplicación y de sus módulos de organización privada está orientado exclusivamente a personas <strong>mayores de 18 años</strong> (o la mayoría de edad legal en su país o jurisdicción).</li>
+            <li>Al utilizar la Aplicación, el usuario declara bajo su exclusiva responsabilidad que posee la edad legal requerida para gestionar títulos o marcadores web relacionados con obras de ficción.</li>
+            <li>Nigenda Studios no suministra, no patrocina, no produce ni comercializa material audiovisual ni adulto; la Aplicación se limita a operar como un organizador y visor de metadatos bibliográficos públicos provistos por APIs comunitarias de terceros o registrados por el propio usuario.</li>
+        </ul>
+
+        <h3>4. Propiedad Intelectual y Marcas</h3>
+        <ul>
+            <li>El software, código fuente, diseño de interfaz, logotipos e identidad gráfica de <strong>Nigenda Shiori</strong> son propiedad intelectual exclusiva de <strong>Nigenda Studios</strong>.</li>
+            <li>Los títulos de animes, mangas, manhwas, nombres de autores, personajes y portadas mostrados a través de las APIs públicas de AniList, MangaDex, Shikimori y MangaUpdates son propiedad exclusiva de sus respectivos autores, ilustradores, editoriales y comités de producción. La Aplicación los muestra únicamente con fines informativos, de identificación y de reseña bibliográfica bajo la doctrina de uso legítimo (<em>Fair Use</em>).</li>
+        </ul>
+
+        <h3>5. Exención y Límite de Responsabilidad</h3>
+        <ul>
+            <li>La Aplicación se suministra «tal cual» y «según disponibilidad», sin garantías expresas o implícitas de disponibilidad ininterrumpida.</li>
+            <li>Nigenda Studios no se hace responsable por cambios de dominio, enlaces caídos, errores 404 ni por los contenidos presentes en sitios web de terceros a los que el usuario acceda mediante sus marcadores.</li>
+            <li>El usuario es responsable de salvaguardar su PIN de Bóveda y sus credenciales de sincronización.</li>
+        </ul>
+
+        <h3>6. Rescisión y Eliminación</h3>
+        <p>
+            Puedes finalizar tu relación contractual con estos Términos en cualquier momento simplemente desinstalando la Aplicación o ejerciendo el Derecho al Olvido mediante la opción de borrado permanente de cuenta y datos disponible en la sección de Ajustes.
+        </p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="legal-card">
+        <h2>7. Contacto y Responsable de Privacidad</h2>
+        <p>
+            Para cualquier duda, solicitud formal sobre el tratamiento de tus datos, ejercicio de derechos ARCO/GDPR o consultas de cumplimiento legal, puedes comunicarte directamente con el equipo de desarrollo:
+        </p>
+        <ul>
+            <li><strong>Entidad Responsable:</strong> Nigenda Studios</li>
+            <li><strong>Correo Oficial de Soporte y Privacidad:</strong> <a href="mailto:soporte@nigendastudios.com">soporte@nigendastudios.com</a></li>
+            <li><strong>Aplicación:</strong> Nigenda Shiori (<code>com.nigendastudios.shiori</code>)</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Nigenda Studios. Todos los derechos reservados. • Nigenda Shiori (com.nigendastudios.shiori)</p>
+</footer>
+
+</body>
+</html>
